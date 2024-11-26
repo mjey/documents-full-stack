@@ -5,12 +5,12 @@ Installation
 ------------
 
 ```shell
-$ git clone https://github.com/mjey/documents-full-stack.git documents_app
-$ cd documents_app/backend
-$ python -m venv venv     
-$ source venv/bin/activate (on Windows: venv\Scripts\activate)     
-$ pip install -r requirements.txt     
-$ python main.py
+git clone https://github.com/mjey/documents-full-stack.git documents_app
+cd documents_app/backend
+python -m venv venv     
+source venv/bin/activate (on Windows: venv\Scripts\activate)     
+pip install -r requirements.txt     
+python main.py
 ```
     
     
