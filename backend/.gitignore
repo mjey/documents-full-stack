@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+*.env
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Flask cache
+instance/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Docker
+*.pid
+docker-compose.override.yml
+# Ignore build and runtime artifacts
+*.tar
+*.bak
+*.swp
+Dockerfile.*
+
+# PostgreSQL
+postgres_data/
+
+# Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node/npm if using frontend or CI/CD
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+*.coverage
+.coverage.*
+
+# Test output
+pytest_cache/
+*.pytest_cache/
+htmlcov/
+.tox/
